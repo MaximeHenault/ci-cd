@@ -1,5 +1,5 @@
 const { addition } = require("./Index.js");
-const result = addition(2, 3);
+const result = addition(3, 2);
 if (result === 5) {
  console.log("✔ Test réussi : addition(2,3) = 5");
  process.exit(0); // OK
