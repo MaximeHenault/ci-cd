@@ -1,4 +1,4 @@
-const { addition } = require("/index");
+const { addition } = require("./Index.js");
 const result = addition(2, 3);
 if (result === 5) {
  console.log("✔ Test réussi : addition(2,3) = 5");
@@ -6,4 +6,4 @@ if (result === 5) {
 } else {
  console.error("❌ Test échoué : résultat incorrect");
  process.exit(1); // KO => casse le pipeline
-}
+}    
